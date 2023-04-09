@@ -1,0 +1,26 @@
+.slider{
+  width: 100%;
+  padding: 15px;
+  user-select: none;
+}
+
+.contentSlide {
+  color: #fff !important;
+  border: 10px solid #fff;
+  border-bottom: 5px solid #fff;
+  transition: all 1s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.contentSlide div span {
+  width: 15px;
+  height: 15px;
+  background-color: #fff !important;
+  transition: all 1s;
+}
+
+
+.contentSlide img {
+  width: 100%;
+  height: auto;
+}

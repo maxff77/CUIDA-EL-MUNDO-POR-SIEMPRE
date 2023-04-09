@@ -1,0 +1,47 @@
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0 10px;
+}
+
+.section {
+  /* flex-grow: 1; */
+  width: 100%;
+  margin-top: 10px;
+  max-width: 1024px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .section {
+    width: 40%;
+    margin: 0 5%;
+    margin-top: 25px;
+  }
+}
+
+.title {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.contentText {
+  font-size: 18px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.styleBold {
+  font-weight: 800;
+}
+
+.section ol {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.section ol li:not(first-child) {
+  margin-top: 10px;
+}
